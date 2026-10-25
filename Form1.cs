@@ -24,11 +24,36 @@ namespace windowsformEDP
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("mAAIUWDAWDAWDYAWDAWD");
-            Console.WriteLine("mAAIUWDAWDAWDYAWDAWD");
-            Console.WriteLine("mAAIUWDAWDAWDYAWDAWD");
-            Console.WriteLine("mAAIUWDAWDAWDYAWDAWD");
-            Console.WriteLine("mAAIUWDAWDAWDYAWDAWD");
+            
+        }
+
+        private void guna2HtmlLabel7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconPictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
 
         }
     }
