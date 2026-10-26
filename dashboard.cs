@@ -21,5 +21,25 @@ namespace windowsformEDP
         {
 
         }
+
+        private void pnlSide_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconPictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

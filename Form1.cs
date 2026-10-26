@@ -56,5 +56,23 @@ namespace windowsformEDP
         {
 
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            dashboard db = new dashboard();
+
+            // Kapag isinara ang Form2, bumalik sa Form1
+            db.FormClosed += (s, args) => this.Show();
+
+            db.Show();
+
+            // Itago ang Form1
+            this.Hide();
+        }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

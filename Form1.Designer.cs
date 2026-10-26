@@ -32,7 +32,6 @@
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
-            this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
@@ -53,19 +52,20 @@
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel14 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.guna2HtmlLabel15 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel16 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.signin_btn = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel17 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel18 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             this.guna2Panel5.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -105,22 +105,6 @@
             this.guna2Panel6.ShadowDecoration.Parent = this.guna2Panel6;
             this.guna2Panel6.Size = new System.Drawing.Size(100, 100);
             this.guna2Panel6.TabIndex = 13;
-            // 
-            // iconPictureBox1
-            // 
-            this.iconPictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.iconPictureBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(22)))), ((int)(((byte)(20)))));
-            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.PeopleRoof;
-            this.iconPictureBox1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(22)))), ((int)(((byte)(20)))));
-            this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox1.IconSize = 90;
-            this.iconPictureBox1.Location = new System.Drawing.Point(7, 9);
-            this.iconPictureBox1.Name = "iconPictureBox1";
-            this.iconPictureBox1.Size = new System.Drawing.Size(90, 90);
-            this.iconPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.iconPictureBox1.TabIndex = 1;
-            this.iconPictureBox1.TabStop = false;
-            this.iconPictureBox1.Click += new System.EventHandler(this.iconPictureBox1_Click);
             // 
             // guna2Panel5
             // 
@@ -258,6 +242,7 @@
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(236, 20);
             this.guna2HtmlLabel1.TabIndex = 5;
             this.guna2HtmlLabel1.Text = "Assign tasks to household members";
+            this.guna2HtmlLabel1.Click += new System.EventHandler(this.guna2HtmlLabel1_Click);
             // 
             // guna2HtmlLabel3
             // 
@@ -383,24 +368,6 @@
             this.guna2HtmlLabel14.Text = "Password";
             this.guna2HtmlLabel14.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // iconButton1
-            // 
-            this.iconButton1.AutoSize = true;
-            this.iconButton1.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton1.FlatAppearance.BorderSize = 0;
-            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton1.ForeColor = System.Drawing.Color.Transparent;
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.SquareCheck;
-            this.iconButton1.IconColor = System.Drawing.Color.DimGray;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.IconSize = 20;
-            this.iconButton1.Location = new System.Drawing.Point(675, 439);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(39, 44);
-            this.iconButton1.TabIndex = 19;
-            this.iconButton1.UseVisualStyleBackColor = false;
-            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
-            // 
             // guna2HtmlLabel15
             // 
             this.guna2HtmlLabel15.BackColor = System.Drawing.Color.Transparent;
@@ -425,21 +392,22 @@
             this.guna2HtmlLabel16.Text = "Forgot password?";
             this.guna2HtmlLabel16.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // guna2Button1
+            // signin_btn
             // 
-            this.guna2Button1.BorderRadius = 6;
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(69)))), ((int)(((byte)(16)))));
-            this.guna2Button1.Font = new System.Drawing.Font("DM Sans 14pt Light", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(688, 496);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(384, 45);
-            this.guna2Button1.TabIndex = 23;
-            this.guna2Button1.Text = "Sign In ➝";
+            this.signin_btn.BorderRadius = 6;
+            this.signin_btn.CheckedState.Parent = this.signin_btn;
+            this.signin_btn.CustomImages.Parent = this.signin_btn;
+            this.signin_btn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(69)))), ((int)(((byte)(16)))));
+            this.signin_btn.Font = new System.Drawing.Font("DM Sans 14pt Light", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signin_btn.ForeColor = System.Drawing.Color.White;
+            this.signin_btn.HoverState.Parent = this.signin_btn;
+            this.signin_btn.Location = new System.Drawing.Point(688, 496);
+            this.signin_btn.Name = "signin_btn";
+            this.signin_btn.ShadowDecoration.Parent = this.signin_btn;
+            this.signin_btn.Size = new System.Drawing.Size(384, 45);
+            this.signin_btn.TabIndex = 23;
+            this.signin_btn.Text = "Sign In ➝";
+            this.signin_btn.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2HtmlLabel17
             // 
@@ -465,6 +433,40 @@
             this.guna2HtmlLabel18.Text = "Create account";
             this.guna2HtmlLabel18.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // iconButton1
+            // 
+            this.iconButton1.AutoSize = true;
+            this.iconButton1.BackColor = System.Drawing.Color.Transparent;
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton1.ForeColor = System.Drawing.Color.Transparent;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.SquareCheck;
+            this.iconButton1.IconColor = System.Drawing.Color.DimGray;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.IconSize = 20;
+            this.iconButton1.Location = new System.Drawing.Point(675, 439);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(39, 44);
+            this.iconButton1.TabIndex = 19;
+            this.iconButton1.UseVisualStyleBackColor = false;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
+            // 
+            // iconPictureBox1
+            // 
+            this.iconPictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.iconPictureBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(22)))), ((int)(((byte)(20)))));
+            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.PeopleRoof;
+            this.iconPictureBox1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(22)))), ((int)(((byte)(20)))));
+            this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconPictureBox1.IconSize = 90;
+            this.iconPictureBox1.Location = new System.Drawing.Point(7, 9);
+            this.iconPictureBox1.Name = "iconPictureBox1";
+            this.iconPictureBox1.Size = new System.Drawing.Size(90, 90);
+            this.iconPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.iconPictureBox1.TabIndex = 1;
+            this.iconPictureBox1.TabStop = false;
+            this.iconPictureBox1.Click += new System.EventHandler(this.iconPictureBox1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -473,7 +475,7 @@
             this.ClientSize = new System.Drawing.Size(1283, 776);
             this.Controls.Add(this.guna2HtmlLabel18);
             this.Controls.Add(this.guna2HtmlLabel17);
-            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.signin_btn);
             this.Controls.Add(this.guna2HtmlLabel16);
             this.Controls.Add(this.guna2HtmlLabel15);
             this.Controls.Add(this.iconButton1);
@@ -491,7 +493,6 @@
             this.guna2Panel1.PerformLayout();
             this.guna2Panel6.ResumeLayout(false);
             this.guna2Panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
             this.guna2Panel5.ResumeLayout(false);
             this.guna2Panel5.PerformLayout();
             this.guna2Panel4.ResumeLayout(false);
@@ -500,6 +501,7 @@
             this.guna2Panel3.PerformLayout();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -533,7 +535,7 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel14;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel15;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button signin_btn;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel16;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel18;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel17;
