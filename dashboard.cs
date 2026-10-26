@@ -41,5 +41,15 @@ namespace windowsformEDP
         {
 
         }
+
+        private void pnlNav_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2VScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+
+        }
     }
 }
