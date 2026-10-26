@@ -123,6 +123,16 @@ namespace windowsformEDP.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap check__2_ {
+            get {
+                object obj = ResourceManager.GetObject("check (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap check1 {
             get {
                 object obj = ResourceManager.GetObject("check1", resourceCulture);
@@ -223,6 +233,16 @@ namespace windowsformEDP.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap square {
+            get {
+                object obj = ResourceManager.GetObject("square", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap squares {
             get {
                 object obj = ResourceManager.GetObject("squares", resourceCulture);
@@ -276,6 +296,26 @@ namespace windowsformEDP.Properties {
         internal static System.Drawing.Bitmap squares1 {
             get {
                 object obj = ResourceManager.GetObject("squares1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap stop {
+            get {
+                object obj = ResourceManager.GetObject("stop", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap stop__1_ {
+            get {
+                object obj = ResourceManager.GetObject("stop (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
