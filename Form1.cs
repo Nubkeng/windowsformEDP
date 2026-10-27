@@ -59,7 +59,7 @@ namespace windowsformEDP
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            dashboard db = new dashboard();
+            landingpage db = new landingpage();
 
             // Kapag isinara ang Form2, bumalik sa Form1
             db.FormClosed += (s, args) => this.Show();
@@ -77,7 +77,7 @@ namespace windowsformEDP
 
         private void guna2TextBox2_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
