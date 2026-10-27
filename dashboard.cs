@@ -128,5 +128,10 @@ namespace windowsformEDP
         {
 
         }
+
+        private void guna2Panel17_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
