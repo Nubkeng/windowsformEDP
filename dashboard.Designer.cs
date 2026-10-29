@@ -145,7 +145,9 @@
             this.guna2HtmlLabel40 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel41 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CircleButton6 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel20 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel26 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel38 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel39 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -154,17 +156,20 @@
             this.guna2Panel28 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel42 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel37 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CircleButton4 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2Panel18 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel24 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel34 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel35 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CircleButton3 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2Panel17 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel23 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel33 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2HtmlLabel32 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel31 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel27 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel22 = new Guna.UI2.WinForms.Guna2Panel();
@@ -205,11 +210,6 @@
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.pnlDashboard.SuspendLayout();
             this.guna2Panel46.SuspendLayout();
             this.guna2Panel51.SuspendLayout();
@@ -1770,6 +1770,22 @@
             this.guna2CircleButton6.TabIndex = 29;
             this.guna2CircleButton6.Text = "M";
             // 
+            // guna2Button4
+            // 
+            this.guna2Button4.CheckedState.Parent = this.guna2Button4;
+            this.guna2Button4.CustomImages.Parent = this.guna2Button4;
+            this.guna2Button4.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button4.ForeColor = System.Drawing.Color.White;
+            this.guna2Button4.HoverState.Parent = this.guna2Button4;
+            this.guna2Button4.Image = global::windowsformEDP.Properties.Resources.check__2_;
+            this.guna2Button4.ImageSize = new System.Drawing.Size(17, 17);
+            this.guna2Button4.Location = new System.Drawing.Point(8, 13);
+            this.guna2Button4.Name = "guna2Button4";
+            this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
+            this.guna2Button4.Size = new System.Drawing.Size(24, 24);
+            this.guna2Button4.TabIndex = 1;
+            // 
             // guna2Panel20
             // 
             this.guna2Panel20.BorderColor = System.Drawing.Color.Gainsboro;
@@ -1784,6 +1800,22 @@
             this.guna2Panel20.ShadowDecoration.Parent = this.guna2Panel20;
             this.guna2Panel20.Size = new System.Drawing.Size(672, 48);
             this.guna2Panel20.TabIndex = 26;
+            // 
+            // guna2Button8
+            // 
+            this.guna2Button8.CheckedState.Parent = this.guna2Button8;
+            this.guna2Button8.CustomImages.Parent = this.guna2Button8;
+            this.guna2Button8.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button8.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button8.ForeColor = System.Drawing.Color.White;
+            this.guna2Button8.HoverState.Parent = this.guna2Button8;
+            this.guna2Button8.Image = global::windowsformEDP.Properties.Resources.check__2_;
+            this.guna2Button8.ImageSize = new System.Drawing.Size(17, 17);
+            this.guna2Button8.Location = new System.Drawing.Point(8, 13);
+            this.guna2Button8.Name = "guna2Button8";
+            this.guna2Button8.ShadowDecoration.Parent = this.guna2Button8;
+            this.guna2Button8.Size = new System.Drawing.Size(24, 24);
+            this.guna2Button8.TabIndex = 33;
             // 
             // guna2Panel26
             // 
@@ -1882,6 +1914,22 @@
             this.guna2HtmlLabel37.TabIndex = 31;
             this.guna2HtmlLabel37.Text = "Pay electricity bill before 22nd";
             // 
+            // guna2Button7
+            // 
+            this.guna2Button7.CheckedState.Parent = this.guna2Button7;
+            this.guna2Button7.CustomImages.Parent = this.guna2Button7;
+            this.guna2Button7.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button7.ForeColor = System.Drawing.Color.White;
+            this.guna2Button7.HoverState.Parent = this.guna2Button7;
+            this.guna2Button7.Image = global::windowsformEDP.Properties.Resources.stop__1_;
+            this.guna2Button7.ImageSize = new System.Drawing.Size(17, 17);
+            this.guna2Button7.Location = new System.Drawing.Point(7, 12);
+            this.guna2Button7.Name = "guna2Button7";
+            this.guna2Button7.ShadowDecoration.Parent = this.guna2Button7;
+            this.guna2Button7.Size = new System.Drawing.Size(24, 24);
+            this.guna2Button7.TabIndex = 30;
+            // 
             // guna2CircleButton4
             // 
             this.guna2CircleButton4.BorderRadius = 10;
@@ -1946,6 +1994,22 @@
             this.guna2HtmlLabel35.Size = new System.Drawing.Size(203, 22);
             this.guna2HtmlLabel35.TabIndex = 27;
             this.guna2HtmlLabel35.Text = "Schedule annual car service";
+            // 
+            // guna2Button6
+            // 
+            this.guna2Button6.CheckedState.Parent = this.guna2Button6;
+            this.guna2Button6.CustomImages.Parent = this.guna2Button6;
+            this.guna2Button6.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button6.ForeColor = System.Drawing.Color.White;
+            this.guna2Button6.HoverState.Parent = this.guna2Button6;
+            this.guna2Button6.Image = global::windowsformEDP.Properties.Resources.stop__1_;
+            this.guna2Button6.ImageSize = new System.Drawing.Size(17, 17);
+            this.guna2Button6.Location = new System.Drawing.Point(7, 13);
+            this.guna2Button6.Name = "guna2Button6";
+            this.guna2Button6.ShadowDecoration.Parent = this.guna2Button6;
+            this.guna2Button6.Size = new System.Drawing.Size(24, 24);
+            this.guna2Button6.TabIndex = 26;
             // 
             // guna2CircleButton3
             // 
@@ -2027,6 +2091,22 @@
             this.guna2HtmlLabel32.Size = new System.Drawing.Size(203, 22);
             this.guna2HtmlLabel32.TabIndex = 23;
             this.guna2HtmlLabel32.Text = "Fix the leaking bathroom tap";
+            // 
+            // guna2Button3
+            // 
+            this.guna2Button3.CheckedState.Parent = this.guna2Button3;
+            this.guna2Button3.CustomImages.Parent = this.guna2Button3;
+            this.guna2Button3.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button3.ForeColor = System.Drawing.Color.White;
+            this.guna2Button3.HoverState.Parent = this.guna2Button3;
+            this.guna2Button3.Image = global::windowsformEDP.Properties.Resources.stop__1_;
+            this.guna2Button3.ImageSize = new System.Drawing.Size(17, 17);
+            this.guna2Button3.Location = new System.Drawing.Point(7, 12);
+            this.guna2Button3.Name = "guna2Button3";
+            this.guna2Button3.ShadowDecoration.Parent = this.guna2Button3;
+            this.guna2Button3.Size = new System.Drawing.Size(24, 24);
+            this.guna2Button3.TabIndex = 0;
             // 
             // guna2HtmlLabel31
             // 
@@ -2564,86 +2644,6 @@
             this.hScrollBar1.Name = "hScrollBar1";
             this.hScrollBar1.Size = new System.Drawing.Size(8, 8);
             this.hScrollBar1.TabIndex = 0;
-            // 
-            // guna2Button4
-            // 
-            this.guna2Button4.CheckedState.Parent = this.guna2Button4;
-            this.guna2Button4.CustomImages.Parent = this.guna2Button4;
-            this.guna2Button4.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.HoverState.Parent = this.guna2Button4;
-            this.guna2Button4.Image = global::windowsformEDP.Properties.Resources.check__2_;
-            this.guna2Button4.ImageSize = new System.Drawing.Size(17, 17);
-            this.guna2Button4.Location = new System.Drawing.Point(8, 13);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
-            this.guna2Button4.Size = new System.Drawing.Size(24, 24);
-            this.guna2Button4.TabIndex = 1;
-            // 
-            // guna2Button8
-            // 
-            this.guna2Button8.CheckedState.Parent = this.guna2Button8;
-            this.guna2Button8.CustomImages.Parent = this.guna2Button8;
-            this.guna2Button8.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button8.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button8.ForeColor = System.Drawing.Color.White;
-            this.guna2Button8.HoverState.Parent = this.guna2Button8;
-            this.guna2Button8.Image = global::windowsformEDP.Properties.Resources.check__2_;
-            this.guna2Button8.ImageSize = new System.Drawing.Size(17, 17);
-            this.guna2Button8.Location = new System.Drawing.Point(8, 13);
-            this.guna2Button8.Name = "guna2Button8";
-            this.guna2Button8.ShadowDecoration.Parent = this.guna2Button8;
-            this.guna2Button8.Size = new System.Drawing.Size(24, 24);
-            this.guna2Button8.TabIndex = 33;
-            // 
-            // guna2Button7
-            // 
-            this.guna2Button7.CheckedState.Parent = this.guna2Button7;
-            this.guna2Button7.CustomImages.Parent = this.guna2Button7;
-            this.guna2Button7.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button7.ForeColor = System.Drawing.Color.White;
-            this.guna2Button7.HoverState.Parent = this.guna2Button7;
-            this.guna2Button7.Image = global::windowsformEDP.Properties.Resources.stop__1_;
-            this.guna2Button7.ImageSize = new System.Drawing.Size(17, 17);
-            this.guna2Button7.Location = new System.Drawing.Point(7, 12);
-            this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.ShadowDecoration.Parent = this.guna2Button7;
-            this.guna2Button7.Size = new System.Drawing.Size(24, 24);
-            this.guna2Button7.TabIndex = 30;
-            // 
-            // guna2Button6
-            // 
-            this.guna2Button6.CheckedState.Parent = this.guna2Button6;
-            this.guna2Button6.CustomImages.Parent = this.guna2Button6;
-            this.guna2Button6.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.HoverState.Parent = this.guna2Button6;
-            this.guna2Button6.Image = global::windowsformEDP.Properties.Resources.stop__1_;
-            this.guna2Button6.ImageSize = new System.Drawing.Size(17, 17);
-            this.guna2Button6.Location = new System.Drawing.Point(7, 13);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.ShadowDecoration.Parent = this.guna2Button6;
-            this.guna2Button6.Size = new System.Drawing.Size(24, 24);
-            this.guna2Button6.TabIndex = 26;
-            // 
-            // guna2Button3
-            // 
-            this.guna2Button3.CheckedState.Parent = this.guna2Button3;
-            this.guna2Button3.CustomImages.Parent = this.guna2Button3;
-            this.guna2Button3.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.HoverState.Parent = this.guna2Button3;
-            this.guna2Button3.Image = global::windowsformEDP.Properties.Resources.stop__1_;
-            this.guna2Button3.ImageSize = new System.Drawing.Size(17, 17);
-            this.guna2Button3.Location = new System.Drawing.Point(7, 12);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.ShadowDecoration.Parent = this.guna2Button3;
-            this.guna2Button3.Size = new System.Drawing.Size(24, 24);
-            this.guna2Button3.TabIndex = 0;
             // 
             // dashboard
             // 
